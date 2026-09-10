@@ -1,0 +1,31 @@
+======================================================================
+K-MEANS - REPORTE DE EJECUCION (DATASET SINTETICO)
+======================================================================
+[SPLIT] Entrenamiento: 1200 muestras | Prueba: 300 muestras
+[PREP] Variables escaladas con StandardScaler (media 0, desv. 1).
+[K] Valor de K utilizado en el modelo final: 4
+[MODELO] Inercia final (entrenamiento): 1732.497
+[METRICA] Silhouette (entrenamiento): 0.4409
+[METRICA] Silhouette (prueba): 0.4458
+[CLUSTERS] Distribucion de clusters en ENTRENAMIENTO:
+    Cluster 0: 299 muestras
+    Cluster 1: 299 muestras
+    Cluster 2: 301 muestras
+    Cluster 3: 301 muestras
+[CLUSTERS] Distribucion de clusters en PRUEBA:
+    Cluster 0: 74 muestras
+    Cluster 1: 75 muestras
+    Cluster 2: 76 muestras
+    Cluster 3: 75 muestras
+[CONVERGENCIA] Inercia inicial (iter. 1): 1770.624
+[CONVERGENCIA] Inercia final (iter. 4): 1732.497
+[CONVERGENCIA] El algoritmo convergio en 4 iteraciones.
+[METRICA] Adjusted Rand Index (ARI): 0.9911
+[METRICA] Normalized Mutual Info (NMI): 0.9872
+[EVAL] Mapeo cluster->grupo: {np.int32(0): np.int64(0), np.int32(1): np.int64(2), np.int32(2): np.int64(1), np.int32(3): np.int64(3)}
+[EVAL] Accuracy: 0.9967 | F1-Score (macro): 0.9967
+----------------------------------------------------------------------
+[DEMO] Prediccion de puntos nuevos (consola):
+[DEMO] Punto [-9.881744790648721, 6.585798129903937, 4.461842033225948, 6.457587665776943, -12.702603555199913, 9.535532320739508] evaluado.
+[DEMO] Punto [-3.952934172260295, 6.059156154843862, -0.6249687327773255, 7.865610062077406, -4.681842137756965, 9.407436222859504] evaluado.
+[DEMO] Punto [-4.649702894782299, -0.9018069425325415, 1.544834505025581, -8.889424760104356, -7.292509496784646, -4.060304887986439] evaluado.
