@@ -16,7 +16,7 @@
 
 ---
 
-## 🎀 Tabla de contenido
+## 📋 Tabla de contenido
 
 - [📌 Descripción general](#-descripción-general)
 - [🧠 ¿Qué es K-means?](#-qué-es-k-means)
